@@ -10,6 +10,4 @@ It is quite useful to understand the demand, habits, concern, perception, and in
 
 However, the genders of users are in general unavailable in e-commerce platforms. To address this gap the aim here is to predict the gender of e-commerce’s participants from their product viewing records.
 
-About Data Source: PAKDD 2015 Conference
-
 Loaded Dataset,Checked info(),shape,null values,droppped duplicate values,Converted Date and time into multiple columns,Product list was an object type column ,splittled it into category,sub category,sub sub category,product using split,transfomrmed using label encoder,Used XGB Classifier to classify into female and male with Grid seacrh to get best model score ,predicted male and female using inverse transform and made a submission file in csv format.
